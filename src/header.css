@@ -1,0 +1,25 @@
+.header{
+    border-bottom: 5px solid hsla(0, 0%, 0%, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: hsla(0, 0%, 100%, 0.05);
+    
+}
+button{
+        background-color: hsla(0, 0%, 100%, 0.05);
+
+}
+button::before{
+    content: url('./assets/9104269_night_night mode_moon_crescent_dark mode_icon.svg');
+    display: inline-block;
+    width: 24px;
+    aspect-ratio: 1;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 2rem;
+}

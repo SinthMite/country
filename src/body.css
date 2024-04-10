@@ -1,0 +1,30 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+li{
+    list-style-type: none;
+    box-shadow: 1px 1px 2rem hsla(0, 0%, 57%, 0.5);
+    max-width: 20rem;
+}
+li img{
+    width: 20rem;
+}
+.inputSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#text{
+    width: 40%;
+    padding: 1rem;
+    border: 1px solid hsla(0, 0%, 0%, 0.2);
+}
+select{
+    width: 20%;
+    padding: 1rem;
+    border: 1px solid hsla(0, 0%, 0%, 0.2);
+}
